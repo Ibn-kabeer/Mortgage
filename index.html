@@ -1,0 +1,90 @@
+<html lang="en">
+<head><div></div>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-sky-100 color-white">
+              
+      <div class="flex w-[800px] h-[480px] bg-white justify-center ml-[450] mt-[155]  rounded-lg bg-auto font-sans">
+
+          <div class="bg-slate-50 w-[400px] rounded-lg">
+
+            <div class="flex justify-between">
+               <h1 class="text-cyan-950 text-lg font-bold pt-[19] pl-[15] ">Mortgage Calculator</h1> 
+               <span class="text-xs font-medium pt-[24] pr-[18] underline decoration-1 text-slate-400 ">Clear All</span>
+            </div>
+
+                  <div class="p-4 w-96">
+                  <label for="amount" class="block text-slate-400 mb-1"> Mortgage Amount</label>
+                  <div class="relative">
+                    <span class="absolute inset-y-0 left-0 flex items-center pl-4 text-gray-700 font-bold bg-sky-100">£</span>
+                    <input type="text" id="amount" name="amount" class="pl-8 pr-3 py-2 border border-gray-300 rounded w-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                  </div>
+              
+            </div>
+           <div class="justify-between flex text-slate-400 text-xs font-medium ">
+            <div class="pl-[18] pt-[20]">
+              <label for="amount" class="block text-slate-400 mb-1"> Mortgage Term</label>
+                <div>
+                  <div class="relative">
+                  <span class="absolute inset-y-0 right-0 flex items-center pl-1 text-gray-700 font-bold bg-sky-100">years</span>
+                  <input type="text" id="years" name="years" class="pl-2 pr-6 py-2 border border-slate-400 h-[30] rounded w-full focus:outline-none focus:ring-2 focus:ring-blue-500 focus:border-blue-500">
+                </div>
+              </div>
+            </div>
+
+            <div class="pr-[100] pt-[20]">
+               <label for="amount" class="block text-slate-400 mb-1 ml-[8]"> Intrest Rate</label> 
+               <div>
+                <div>
+                  <span class="absolute inset-y-0 right-2 flex items-center pl-1 text-gray-700 font-bold bg-sky-100">%</span>
+                <input type="text" id="percentage" name="percentage"  class="pl-[22] ml-[10] mt-[3] h-[30] bg-auto w-[130] border rounded border-slate-400 mt-[10] ">
+                </div>
+              </div>
+            </div>          
+
+           </div>
+              
+           <div class="text-slate-400 text-xs font-medium pt-[20] ml-[15]">
+            <p>Mortgage Type</p>
+           </div>  
+
+           <div class="text-sm font-bold border rounded border-gray-300 flex h-[30] w-[200] ml-[10] mt-[10] ">
+            <input type="radio">
+            <span>Repayment</span>
+           </div>
+
+           <div class="text-sm font-bold border rounded border-gray-300 flex h-[30] w-[200] ml-[10] mt-[10] ">
+            <input type="radio">
+            <span>Intrest Only</span>
+           </div>
+
+            <div class="flex">
+              <div>
+                <span><img src="<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" viewBox="0 0 24 24"><path fill="#133041" d="M18.75 2.25H5.25a1.5 1.5 0 0 0-1.5 1.5v16.5a1.5 1.5 0 0 0 1.5 1.5h13.5a1.5 1.5 0 0 0 1.5-1.5V3.75a1.5 1.5 0 0 0-1.5-1.5Zm-10.5 16.5a1.125 1.125 0 1 1 0-2.25 1.125 1.125 0 0 1 0 2.25Zm0-3.75a1.125 1.125 0 1 1 0-2.25 1.125 1.125 0 0 1 0 2.25ZM12 18.75a1.125 1.125 0 1 1 0-2.25 1.125 1.125 0 0 1 0 2.25ZM12 15a1.125 1.125 0 1 1 0-2.25A1.125 1.125 0 0 1 12 15Zm3.75 3.75a1.125 1.125 0 1 1 0-2.25 1.125 1.125 0 0 1 0 2.25Zm0-3.75a1.125 1.125 0 1 1 0-2.25 1.125 1.125 0 0 1 0 2.25Zm1.5-5.25a.75.75 0 0 1-.75.75h-9a.75.75 0 0 1-.75-.75V6a.75.75 0 0 1 .75-.75h9a.75.75 0 0 1 .75.75v3.75Z"/></svg>" alt=""></span>
+              <button class="bg-yellow-400 mt-[60] ml-[20] border-[20] w-[200] text-cyan-950 font-bold text-sm h-[30] rounded-lg">Calculate Repay </button>
+            </div> 
+
+          </div>
+
+          
+
+          <div class="bg-cyan-950 w-[400px] color-white text-xs rounded-lg rounded-bl-[90px] block">
+          <div class="my-[120] mx-[100]"> <img src="Screenshot (8).png" alt="">
+          <p class="text-white text-[16px] pt-[20] mx-[20] font-bold">Results shown here</p>
+          <br>
+          <p class="text-neutral-50 fixed">Complete the form and click "calculate repayments" to <br>see what your monthly repayments would be.</p>
+          </div>
+          </div>
+
+
+
+      </div>
+
+
+
+
+</body>
+</html>
